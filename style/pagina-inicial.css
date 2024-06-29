@@ -23,6 +23,7 @@
 }
 
 .index-texto {
+    text-align: center;
     font-size: 2rem;
     color: #f7f7f7;
 }
@@ -53,11 +54,33 @@
     font-size: 2rem;
     text-decoration: none;
     color: #010101;
-    border: solid 4px transparent;
+    border: solid 2px transparent;
 }
 
 .index-botao:hover {
-    border: solid 4px #0095ff;
+    border: solid 2px #0095ff;
     color: #0095ff;
     box-shadow: 0 0 10px #0095ff;
+}
+
+@media (max-width: 410px) {
+    .index-titulo {
+        text-align: center;
+        padding-bottom: 10px;
+        font-size: 4rem;
+        color: #f7f7f7;
+    }
+
+    .index-subtitulo {
+        padding-bottom: 40px;
+        text-align: center;
+        font-size: 2rem;
+        color: #f7f7f7;
+    }
+
+    .index-texto {
+        text-align: center;
+        font-size: 1.5rem;
+        color: #f7f7f7;
+    }
 }
