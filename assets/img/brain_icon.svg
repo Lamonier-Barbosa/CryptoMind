@@ -4,18 +4,18 @@
 	 viewBox="0 0 64 64" style="enable-background:new 0 0 64 64;" xml:space="preserve" >
 <style type="text/css">
 	.st0{display:none;}
-	.st1{display:inline;fill:#0095ff;}
+	.st1{display:inline;fill:#0A3871;}
 	.st2{display:inline;}
-	.st3{fill:none;stroke:#0095ff;stroke-width:2;stroke-miterlimit:10;}
-	.st4{display:inline;fill:none;stroke:#0095ff;stroke-width:2;stroke-miterlimit:10;}
-	.st5{display:inline;fill:none;stroke:#0095ff;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2;}
-	.st6{fill:none;stroke:#0095ff;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2;}
-	.st7{fill:#0095ff;}
+	.st3{fill:none;stroke:#0A3871;stroke-width:2;stroke-miterlimit:10;}
+	.st4{display:inline;fill:none;stroke:#0A3871;stroke-width:2;stroke-miterlimit:10;}
+	.st5{display:inline;fill:none;stroke:#0A3871;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2;}
+	.st6{fill:none;stroke:#0A3871;stroke-width:2;stroke-miterlimit:10;stroke-dasharray:2;}
+	.st7{fill:#0A3871;}
 	.st8{font-family:'Montserrat-Bold';}
 	.st9{font-size:7px;}
-	.st10{display:inline;fill:#0095ff;}
-	.st11{display:inline;fill:#0095ff;}
-	.st12{display:inline;fill:#0095ff;}
+	.st10{display:inline;fill:#0A3871;}
+	.st11{display:inline;fill:#0A3871;}
+	.st12{display:inline;fill:#0A3871;}
 </style>
 <g id="bg" class="st0">
 	<rect id="XMLID_119_" x="-218" y="-268.2" class="st1" width="500" height="600.3"/>
@@ -606,11 +606,11 @@
 	<circle id="XMLID_60_" class="st11" cx="-110.1" cy="-208.4" r="18.3"/>
 	<circle id="XMLID_63_" class="st12" cx="-122.7" cy="-190.1" r="18.3"/>
 	<g id="XMLID_1_" class="st2">
-		<text id="XMLID_505_" transform="matrix(1 0 0 1 -183.7552 -194.0852)"><tspan x="0" y="0" style="fill:#0095ff; font-family:'Oswald-Bold'; font-size:22.512px;">FLAT </tspan><tspan x="45.5" y="0" style="fill:#0095ff; font-family:'Oswald-Light'; font-size:22.512px;">LINE </tspan><tspan x="83.9" y="0" style="fill:#0095ff; font-family:'Oswald-Bold'; font-size:22.512px;">ICONS</tspan></text>
+		<text id="XMLID_505_" transform="matrix(1 0 0 1 -183.7552 -194.0852)"><tspan x="0" y="0" style="fill:#0A3871; font-family:'Oswald-Bold'; font-size:22.512px;">FLAT </tspan><tspan x="45.5" y="0" style="fill:#0A3871; font-family:'Oswald-Light'; font-size:22.512px;">LINE </tspan><tspan x="83.9" y="0" style="fill:#0A3871; font-family:'Oswald-Bold'; font-size:22.512px;">ICONS</tspan></text>
 	</g>
 	<g id="XMLID_2_" class="st2">
 		
-			<text id="XMLID_508_" transform="matrix(1 0 0 1 82.5865 -193.9056)" style="fill:#0095ff; font-family:'Oswald-Light'; font-size:16.1735px;">EDUCATION &amp; KNOWLEDGE</text>
+			<text id="XMLID_508_" transform="matrix(1 0 0 1 82.5865 -193.9056)" style="fill:#0A3871; font-family:'Oswald-Light'; font-size:16.1735px;">EDUCATION &amp; KNOWLEDGE</text>
 	</g>
 </g>
 </svg>

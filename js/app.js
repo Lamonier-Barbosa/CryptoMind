@@ -3,8 +3,8 @@ document.getElementById("resposta-verso").style.display = "none";
 
 var botaoDeCriptografar = document.getElementById("botao-criptografar");
 var botaoDeDescriptografar = document.getElementById("botao-descriptografar");
-// var mensagem = document.querySelector(".mensagem").value;
-// var resposta = document.getElementById("resposta-verso").value
+var botaoDeCopiar = document.getElementById("botao-copiar");
+
 function aparecerTexto() {
     document.getElementById("resposta-frente").style.display = "none";
     document.getElementById("botao-copiar").style.display = "block";
@@ -35,26 +35,6 @@ function criptografarTexto(texto) {
     return textoCriptografado;
 }
 
-// function descriptografarTexto(texto) {
-//     const alfabeto = "abcdefghijklmnopqrstuvwxyz";
-//     const chave = 1; // Número de posições para deslocar
-
-//     let resultado = "";
-
-//     for (const caractere of texto) {
-//         if (caractere.match(/[a-zA-Z]/)) {
-//             const indice = alfabeto.indexOf(caractere.toLowerCase());
-//             const novoIndice = (indice - chave + alfabeto.length) % alfabeto.length;
-//             const novoCaractere = alfabeto[novoIndice];
-//             resultado += caractere === caractere.toUpperCase() ? novoCaractere.toUpperCase() : novoCaractere;
-//         } else {
-//             resultado += caractere;
-//         }
-//     }
-
-//     return resultado;
-// }
-
 function descriptografarTexto(textoCriptografado) {
     const regrasSubstituicao = {
         'enter': 'e',
@@ -79,7 +59,6 @@ botaoDeCriptografar.addEventListener('click', function () {
     var mensagem = document.querySelector(".mensagem").value;
     let resposta = criptografarTexto(mensagem);
     document.getElementById("resposta-verso").value = resposta;
-    console.log(resposta)
 });
 
 botaoDeDescriptografar.addEventListener('click', function () {
@@ -87,6 +66,13 @@ botaoDeDescriptografar.addEventListener('click', function () {
     var mensagem = document.querySelector(".mensagem").value;
     let resposta = descriptografarTexto(mensagem);
     document.getElementById("resposta-verso").value = descriptografarTexto(resposta);
-    console.log(resposta)
 });
+
+function copiar() {
+    let resposta = document.getElementById("resposta-verso");
+    navigator.clipboard.writeText(resposta.value).then(() => {
+        alert("TEXTO COPIADO!");
+    });
+
+}
 
