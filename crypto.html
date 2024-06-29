@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CryptoMind</title>
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="shortcut icon" href="./assets/img/brain_icon.svg" type="image/x-icon">
+</head>
+
+<body class="body-crypto">
+    <main class="main-crypto">
+        <div class="main-crypto-bg">
+            <div class="header-img">
+                <a href="./index.html"><img src="./assets/img/brain_icon.svg" width="80" height="80"
+                        alt="Icon logo"></a>
+            </div>
+            <div class="mensagem-bg">
+                <form class="mensagem-form" action="">
+                    <div class="mensagem-textarea">
+                        <textarea id="mensagem" class="mensagem" rows="10" name="mensagem"
+                            placeholder="Digite seu Texto."></textarea>
+                    </div>
+                    <p class="mensagem-aviso"><img src="./assets/img/Vector.svg" alt="">Apenas letras minúsculas e
+                        sem
+                        acento.</p>
+                    <div class="botoes">
+                        <button id="botao-criptografar" type="button"
+                            class="form-botao-criptografar botao">Criptografar</button>
+                        <button id="botao-descriptografar" type="button"
+                            class="form-botao-descriptografar botao">Descriptografar</button>
+                    </div>
+                </form>
+            </div>
+            <section class="section-resposta">
+                <div class="resposta-bg">
+                    <div id="resposta-frente" class="resposta-frente">
+                        <img src="./assets/img/boneco-com-lupa.svg" width="336" height="304"
+                            alt="Menino sentado com uma lupa">
+                        <h1>Nenhuma mensagem encontrada</h1>
+                        <p>Digite um texto que você deseja Criptografar ou Descriptografar.</p>
+                    </div>
+                    <div class="resposta-verso">
+                        <textarea id="resposta-verso" name="resposta"></textarea>
+                    </div>
+                    <div class="botao-copiar-bg">
+                        <button onclick="copiar()" id="botao-copiar" class="botao-copiar botao">Copiar</button>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+
+    <footer class="footer-crypto">
+        <div class="footer-bg">
+            <div class="footer-contato">
+                <p>Desenvolvedor - Lamonier Barbosa</p>
+                <a href="mailto:lamoni_r@hotmail.com">lamoni_lr@hotmail.com</a>
+            </div>
+            <div class="footer-copy">
+                <p>CryptoMind © Todos os Direitos Reservados.</p>
+            </div>
+        </div>
+    </footer>
+    <script src="./js/app.js"></script>
+</body>
+
+</html>
